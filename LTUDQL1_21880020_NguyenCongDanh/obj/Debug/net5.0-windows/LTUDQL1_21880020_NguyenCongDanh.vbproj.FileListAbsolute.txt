@@ -38,3 +38,5 @@ D:\Hoc Tap\HK1 2022-2023\LT UDQL1\DoAnLTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21
 D:\Hoc Tap\HK1 2022-2023\LT UDQL1\DoAnLTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\obj\Debug\net5.0-windows\LTUDQL1_21880020_NguyenCongDanh.frmMain.resources
 D:\Hoc Tap\HK1 2022-2023\LT UDQL1\DoAnLTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\obj\Debug\net5.0-windows\LTUDQL1_21880020_NguyenCongDanh.frmMonAn.resources
 D:\Hoc Tap\HK1 2022-2023\LT UDQL1\DoAnLTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\obj\Debug\net5.0-windows\LTUDQL1_21880020_NguyenCongDanh.frmLoaiMonAn.resources
+D:\Hoc Tap\HK1 2022-2023\LT UDQL1\DoAnLTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\obj\Debug\net5.0-windows\LTUDQL1_21880020_NguyenCongDanh.frmMenu.resources
+D:\Hoc Tap\HK1 2022-2023\LT UDQL1\DoAnLTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\LTUDQL1_21880020_NguyenCongDanh\obj\Debug\net5.0-windows\LTUDQL1_21880020_NguyenCongDanh.frmMenuChiTietThem.resources

@@ -2,6 +2,15 @@
 Module XuLyDuLieu
     Dim ChuoiKetNoi As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Database1.accdb;Persist Security Info=True"
 
+    Public Function DocCauTruc(ByVal select_command As String) As DataTable
+        Dim connection As OleDbConnection = New OleDbConnection(ChuoiKetNoi)
+        Dim command As OleDbCommand = New OleDbCommand(select_command, connection)
+        Dim dt As DataTable = New DataTable()
+        Dim adapter As OleDbDataAdapter = New OleDbDataAdapter(command)
+        adapter.FillSchema(dt, SchemaType.Source)
+
+        Return dt
+    End Function
     Public Function DocDuLieu(ByVal select_command As String) As DataTable
         Dim connection As OleDbConnection = New OleDbConnection(ChuoiKetNoi)
         Dim command As OleDbCommand = New OleDbCommand(select_command, connection)
