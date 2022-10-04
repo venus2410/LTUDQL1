@@ -30,4 +30,11 @@
         frm.WindowState = FormWindowState.Maximized
         frm.Show()
     End Sub
+
+    Private Sub MenuChiNhanhToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MenuChiNhanhToolStripMenuItem.Click
+        Dim frm As frmMenuChiNhanh = New frmMenuChiNhanh()
+        frm.MdiParent = Me
+        frm.WindowState = FormWindowState.Maximized
+        frm.Show()
+    End Sub
 End Class

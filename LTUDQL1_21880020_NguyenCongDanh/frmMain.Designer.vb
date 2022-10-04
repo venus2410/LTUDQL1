@@ -29,6 +29,7 @@ Partial Class frmMain
         Me.MónĂnToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoaiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuChiNhanhToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -49,7 +50,7 @@ Partial Class frmMain
         '
         'QuảnLýToolStripMenuItem
         '
-        Me.QuảnLýToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChiNhánhToolStripMenuItem, Me.MónĂnToolStripMenuItem, Me.LoaiToolStripMenuItem, Me.MenuToolStripMenuItem})
+        Me.QuảnLýToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChiNhánhToolStripMenuItem, Me.MónĂnToolStripMenuItem, Me.LoaiToolStripMenuItem, Me.MenuToolStripMenuItem, Me.MenuChiNhanhToolStripMenuItem})
         Me.QuảnLýToolStripMenuItem.Name = "QuảnLýToolStripMenuItem"
         Me.QuảnLýToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.QuảnLýToolStripMenuItem.Text = "Quản lý"
@@ -78,6 +79,12 @@ Partial Class frmMain
         Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.MenuToolStripMenuItem.Text = "Menu"
         '
+        'MenuChiNhanhToolStripMenuItem
+        '
+        Me.MenuChiNhanhToolStripMenuItem.Name = "MenuChiNhanhToolStripMenuItem"
+        Me.MenuChiNhanhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MenuChiNhanhToolStripMenuItem.Text = "Menu - Chi Nhanh"
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -103,4 +110,5 @@ Partial Class frmMain
     Friend WithEvents MónĂnToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LoaiToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MenuToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents MenuChiNhanhToolStripMenuItem As ToolStripMenuItem
 End Class
