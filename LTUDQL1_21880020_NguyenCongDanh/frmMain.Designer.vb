@@ -30,6 +30,7 @@ Partial Class frmMain
         Me.LoaiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuChiNhanhToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NguoiDungToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -50,7 +51,7 @@ Partial Class frmMain
         '
         'QuảnLýToolStripMenuItem
         '
-        Me.QuảnLýToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChiNhánhToolStripMenuItem, Me.MónĂnToolStripMenuItem, Me.LoaiToolStripMenuItem, Me.MenuToolStripMenuItem, Me.MenuChiNhanhToolStripMenuItem})
+        Me.QuảnLýToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ChiNhánhToolStripMenuItem, Me.MónĂnToolStripMenuItem, Me.LoaiToolStripMenuItem, Me.MenuToolStripMenuItem, Me.MenuChiNhanhToolStripMenuItem, Me.NguoiDungToolStripMenuItem})
         Me.QuảnLýToolStripMenuItem.Name = "QuảnLýToolStripMenuItem"
         Me.QuảnLýToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.QuảnLýToolStripMenuItem.Text = "Quản lý"
@@ -58,32 +59,38 @@ Partial Class frmMain
         'ChiNhánhToolStripMenuItem
         '
         Me.ChiNhánhToolStripMenuItem.Name = "ChiNhánhToolStripMenuItem"
-        Me.ChiNhánhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChiNhánhToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
         Me.ChiNhánhToolStripMenuItem.Text = "Chi nhánh"
         '
         'MónĂnToolStripMenuItem
         '
         Me.MónĂnToolStripMenuItem.Name = "MónĂnToolStripMenuItem"
-        Me.MónĂnToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MónĂnToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
         Me.MónĂnToolStripMenuItem.Text = "Món ăn"
         '
         'LoaiToolStripMenuItem
         '
         Me.LoaiToolStripMenuItem.Name = "LoaiToolStripMenuItem"
-        Me.LoaiToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.LoaiToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
         Me.LoaiToolStripMenuItem.Text = "Loại món ăn"
         '
         'MenuToolStripMenuItem
         '
         Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
-        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
         Me.MenuToolStripMenuItem.Text = "Menu"
         '
         'MenuChiNhanhToolStripMenuItem
         '
         Me.MenuChiNhanhToolStripMenuItem.Name = "MenuChiNhanhToolStripMenuItem"
-        Me.MenuChiNhanhToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MenuChiNhanhToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
         Me.MenuChiNhanhToolStripMenuItem.Text = "Menu - Chi Nhanh"
+        '
+        'NguoiDungToolStripMenuItem
+        '
+        Me.NguoiDungToolStripMenuItem.Name = "NguoiDungToolStripMenuItem"
+        Me.NguoiDungToolStripMenuItem.Size = New System.Drawing.Size(173, 22)
+        Me.NguoiDungToolStripMenuItem.Text = "Nguoi Dung"
         '
         'frmMain
         '
@@ -111,4 +118,5 @@ Partial Class frmMain
     Friend WithEvents LoaiToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MenuToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MenuChiNhanhToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NguoiDungToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -87,6 +87,7 @@ Partial Class frmMonAn
         'nudGia
         '
         Me.nudGia.Location = New System.Drawing.Point(562, 112)
+        Me.nudGia.Maximum = New Decimal(New Integer() {1000000000, 0, 0, 0})
         Me.nudGia.Name = "nudGia"
         Me.nudGia.Size = New System.Drawing.Size(120, 23)
         Me.nudGia.TabIndex = 4

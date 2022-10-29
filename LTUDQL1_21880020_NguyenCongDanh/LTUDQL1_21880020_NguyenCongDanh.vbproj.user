@@ -4,6 +4,9 @@
     <Compile Update="frmChiNhanh.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmDangNhap.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmLoaiMonAn.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -20,6 +23,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmMonAn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmNguoiDung.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

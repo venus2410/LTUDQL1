@@ -1,4 +1,6 @@
 ﻿Public Class frmMain
+    Dim tai_khoan As DataRow
+    Dim dsChiNhanh As DataTable
     Private Sub HeeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HeeToolStripMenuItem.Click
 
     End Sub
@@ -36,5 +38,23 @@
         frm.MdiParent = Me
         frm.WindowState = FormWindowState.Maximized
         frm.Show()
+    End Sub
+
+    Private Sub NguoiDungToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NguoiDungToolStripMenuItem.Click
+        Dim frm As frmNguoiDung = New frmNguoiDung()
+        frm.MdiParent = Me
+        frm.WindowState = FormWindowState.Maximized
+        frm.Show()
+    End Sub
+
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim frm As frmDangNhap = New frmDangNhap()
+        Dim dr As DialogResult = frm.ShowDialog()
+        If dr = DialogResult.Yes Then
+            tai_khoan = frm.tai_khoan
+            dsChiNhanh = frm.dsChiNhanh
+        Else
+            Me.Close()
+        End If
     End Sub
 End Class
